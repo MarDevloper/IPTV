@@ -33,8 +33,6 @@
 <!-- /Rank Math WordPress SEO plugin -->
 
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel="alternate" type="application/rss+xml" title="ZeeIPTV &raquo; Feed" href="https://zeeiptv.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="ZeeIPTV &raquo; Comments Feed" href="https://zeeiptv.com/comments/feed/" />
 		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.14.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
 							<script src="//www.googletagmanager.com/gtag/js?id=G-LHYGND6X3X"  data-cfasync="false" data-wpfc-render="false" async></script>
 			<script data-cfasync="false" data-wpfc-render="false">
@@ -262,6 +260,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='ct-elementor-styles-css' href='https://zeeiptv.com/wp-content/themes/blocksy/static/bundle/elementor-frontend.min.css?ver=1.8.84' media='all' />
 <link rel='stylesheet' id='ekit-widget-styles-css' href='https://zeeiptv.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=2.8.7' media='all' />
 <link rel='stylesheet' id='ekit-responsive-css' href='https://zeeiptv.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=2.8.7' media='all' />
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <script src='https://zeeiptv.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
 <script src='https://zeeiptv.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
 <script src='https://zeeiptv.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.14.1' id='monsterinsights-frontend-script-js'></script>
@@ -281,10 +280,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     transform: rotate(0.9turn);
     width: 170px;
     left: -52px;
-}</style><link rel="icon" href="https://zeeiptv.com/wp-content/uploads/2023/01/cropped-image_2023-01-13_161323235-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://zeeiptv.com/wp-content/uploads/2023/01/cropped-image_2023-01-13_161323235-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://zeeiptv.com/wp-content/uploads/2023/01/cropped-image_2023-01-13_161323235-180x180.png" />
-<meta name="msapplication-TileImage" content="https://zeeiptv.com/wp-content/uploads/2023/01/cropped-image_2023-01-13_161323235-270x270.png" />
+}</style><link rel="icon" href="iptvlogo.svg" sizes="32x32" />
+<link rel="icon" href="iptvlogo.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="iptvlogo.svg" />
+<meta name="msapplication-TileImage" content="iptvlogo.svg" />
 	</head>
 
 
@@ -310,12 +309,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <nav
 	class="mobile-menu"
 	data-id="mobile-menu" data-interaction="click" data-toggle-type="type-1" 	aria-label="Off Canvas Menu">
-	<ul id="menu-main-menu-1" role="menubar"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-223" role="none"><a href="https://zeeiptv.com/" aria-current="page" class="ct-menu-link" role="menuitem">Home</a></li>
+	<ul id="menu-main-menu-1" role="menubar"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-223" role="none"><a href="https://iptv.cawmi.com/" aria-current="page" class="ct-menu-link" role="menuitem">Home</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-658" role="none"><a href="/#xs_pricing_3" aria-current="page" class="ct-menu-link" role="menuitem">Plans</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220" role="none"><a href="https://zeeiptv.com/refund_returns/" class="ct-menu-link" role="menuitem">Refund</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275" role="none"><a href="https://zeeiptv.com/faq/" class="ct-menu-link" role="menuitem">FAQ</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221" role="none"><a href="https://zeeiptv.com/contuct-us/" class="ct-menu-link" role="menuitem">Contact us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276" role="none"><a href="https://zeeiptv.com/blog/" class="ct-menu-link" role="menuitem">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220" role="none"><a href="https://iptv.cawmi.com/refund_returns" class="ct-menu-link" role="menuitem">Refund</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275" role="none"><a href="https://iptv.cawmi.com/faq/" class="ct-menu-link" role="menuitem">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221" role="none"><a href="https://iptv.cawmi.com/contuct-us/" class="ct-menu-link" role="menuitem">Contact us</a></li>
 </ul></nav>
 
 </div></div></div>
@@ -338,7 +336,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <div	class="site-branding"
 	data-id="logo" 		itemscope="itemscope" itemtype="https://schema.org/Organization" >
 
-			<a href="https://zeeiptv.com/" class="site-logo-container" rel="home"><img width="747" height="119" src="ezgif-1-456c2121fc.gif" class="default-logo" alt="ZeeIPTV" /></a>	
+			<a href="https://iptv.cawmi.com/" class="" rel="home"><img class="ml-n3" width="300" src="iptvlogo.svg" class="default-logo" alt="iptvlogo" /></a>	
 	</div>
 
 </div></div><div data-column="middle" ><div data-items="" >
@@ -350,10 +348,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 	<ul id="menu-main-menu" class="menu" role="menubar"><li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-223" role="none"><a href="https://zeeiptv.com/" aria-current="page" class="ct-menu-link" role="menuitem">Home</a></li>
 <li id="menu-item-658" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-658" role="none"><a href="/#xs_pricing_3" aria-current="page" class="ct-menu-link" role="menuitem">Plans</a></li>
-<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220" role="none"><a href="https://zeeiptv.com/refund_returns/" class="ct-menu-link" role="menuitem">Refund</a></li>
-<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275" role="none"><a href="https://zeeiptv.com/faq/" class="ct-menu-link" role="menuitem">FAQ</a></li>
-<li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221" role="none"><a href="https://zeeiptv.com/contuct-us/" class="ct-menu-link" role="menuitem">Contact us</a></li>
-<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276" role="none"><a href="https://zeeiptv.com/blog/" class="ct-menu-link" role="menuitem">Blog</a></li>
+<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220" role="none"><a href="https://iptv.cawmi.com/refund_returns/" class="ct-menu-link" role="menuitem">Refund</a></li>
+<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275" role="none"><a href="https://iptv.cawmi.com/faq/" class="ct-menu-link" role="menuitem">FAQ</a></li>
+<li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221" role="none"><a href="https://iptv.cawmi.com/contuct-us/" class="ct-menu-link" role="menuitem">Contact us</a></li>
 </ul></nav>
 
 </div></div><div data-column="end" data-placements="1" ><div data-items="primary" >
@@ -385,14 +382,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<rect y="12.3" width="18" height="1.7" rx="1"/>
 	</svg>
 </button>
-</div></div><div data-column="middle" ><div data-items="" >
+</div></div><div data-column="middle" ><div data-items="" class="bg-primary">
 <div	class="site-branding"
 	data-id="logo" 		>
 
-			<a href="https://iptv.cawmi.com" class="site-logo-container" rel="home"><img width="747" height="119" src="ezgif-1-456c2121fc.gif" class="default-logo" alt="ZeeIPTV" /></a>	
-	</div>
+			<a href="https://iptv.cawmi.com" class="site-logo-container" rel="home"><img  src="iptvlogo.svg" class="default-logo" alt="CAWMI IPTV" /></a>	
+	</div><div data-column="end" ></div><div data-column="end" ></div>
 
-</div></div><div data-column="end" ></div></div></div></div></div></div></header>
+</div></div><div data-column="end"></div></div></div></div></div></div></header><div data-column="end" ></div>
 	<main id="main" class="site-main hfeed" >
 
 				<div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
@@ -1375,7 +1372,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 								<div class="elementor-element elementor-element-39c6ecc0 elementor-widget elementor-widget-image" data-id="39c6ecc0" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 																<a href="/">
-							<img width="751" height="124" src="ezgif-1-db0017b29e.gif" class="attachment-full size-full wp-image-808" alt="" />								</a>
+							<img width="751" height="124" src="iptvlogo.svg" class="attachment-full size-full wp-image-808 bg-white" alt="" />								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-28817209 elementor-widget elementor-widget-text-editor" data-id="28817209" data-element_type="widget" data-widget_type="text-editor.default">
